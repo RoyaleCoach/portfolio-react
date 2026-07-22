@@ -1,0 +1,58 @@
+{
+  "name": "RoyaleCoach",
+  "title": "Software Developer & Computer Science Student",
+  "email": "royalecoach57@gmail.com",
+  "github": "https://github.com/RoyaleCoach",
+  "linkedin": "https://linkedin.com/in/royale-coach-65a82b353",
+  "twitter": "https://twitter.com/RoyaleCoach57",
+  "instagram": "https://instagram.com/oseng_tri",
+  "location": "Surabaya, Indonesia",
+  "university": "Institut Teknologi Sepuluh Nopember (ITS)",
+  "faculty": "FTEIC",
+  "major": "Informatics Engineering",
+  "tagline": "Informatics Engineering student who believes in writing clean, maintainable code.",
+  "shortBio": "Software Developer & Computer Science student passionate about software engineering, AI integration, cryptography, and building things that work.",
+  "bio": [
+    "I'm an undergraduate student majoring in Informatics Engineering at Institut Teknologi Sepuluh Nopember (ITS), under the Faculty of Intelligent Electrical and Informatics Technology (FTEIC). I've been writing code for a few years now, and I still find it fascinating how a few lines can turn an idea into something real.",
+    "My interests live at the intersection of software engineering, AI integration, cybersecurity, and system design. I'm a daily Linux user — not because it's trendy, but because understanding how things work under the hood makes me a better developer.",
+    "Outside of university coursework, I spend most of my time building personal projects, reading documentation, and learning from open-source codebases. I believe the best way to grow as an engineer is to keep building, keep breaking things, and keep learning from both."
+  ],
+  "story": [
+    "It started during the pandemic. Stuck at home with a laptop and too much time, I stumbled into C# and never looked back. There was something magical about typing words and seeing a program come to life.",
+    "What kept me going wasn't the syntax — it was the problem-solving. The feeling of staring at a bug for hours, then finally cracking it. The satisfaction of building something from nothing and watching it work.",
+    "Today, I code because it's how I think. Every project is a puzzle, every architecture decision is a tradeoff, and every line of code is a choice. I'm not just writing software — I'm crafting solutions."
+  ],
+  "facts": [
+    { "label": "University", "value": "ITS Surabaya" },
+    { "label": "Faculty", "value": "FTEIC" },
+    { "label": "Major", "value": "Informatics Engineering" },
+    { "label": "OS", "value": "Linux (Debian)" },
+    { "label": "Editor", "value": "VS Code" },
+    { "label": "Main Language", "value": "Python" },
+    { "label": "Interests", "value": "AI, Security, Systems" },
+    { "label": "Status", "value": "Open to internships" }
+  ],
+  "socials": [
+    { "name": "GitHub", "url": "https://github.com/RoyaleCoach", "icon": "github" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/royale-coach-65a82b353", "icon": "linkedin" },
+    { "name": "Twitter", "url": "https://twitter.com/RoyaleCoach57", "icon": "twitter" },
+    { "name": "Instagram", "url": "https://instagram.com/oseng_tri", "icon": "instagram" }
+  ],
+  "availability": [
+    { "label": "Internship", "available": true },
+    { "label": "Freelance", "available": true },
+    { "label": "Open Source", "available": true }
+  ],
+  "currentlyExploring": ["Rust", "AI Agents", "Cryptography", "System Design"],
+  "goals": [
+    { "period": "Short Term", "icon": "🎯", "description": "Master Rust and systems programming. Build production-grade open source tools. Land a software engineering internship." },
+    { "period": "Mid Term", "icon": "🚀", "description": "Contribute to major open source projects. Build AI-powered developer tools. Graduate with strong fundamentals." },
+    { "period": "Long Term", "icon": "💡", "description": "Become a software architect who bridges the gap between research and production. Build tools that empower other developers." }
+  ],
+  "stats": [
+    { "value": 4, "label": "Projects Built", "suffix": "+" },
+    { "value": 6, "label": "Languages", "suffix": "+" },
+    { "value": 3, "label": "Years Coding", "suffix": "+" },
+    { "value": 100, "label": "% Curiosity", "suffix": "%" }
+  ]
+}

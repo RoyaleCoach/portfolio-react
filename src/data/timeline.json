@@ -1,0 +1,27 @@
+[
+  {
+    "date": "Now",
+    "title": "Studying at ITS — Building Real Things",
+    "description": "Currently pursuing Informatics Engineering at ITS under FTEIC. University gave me the theoretical foundation — algorithms, data structures, operating systems — but the real growth happens when I apply those concepts to actual projects."
+  },
+  {
+    "date": "2026",
+    "title": "Cryptography, AI & System Design",
+    "description": "Built Cryptid, a CLI cryptographic toolkit using AES-256-GCM and Argon2id — my first serious attempt at security-first design. Explored AI agent architecture by building a hierarchical memory system with reflection engines."
+  },
+  {
+    "date": "2025",
+    "title": "Building Projects & Finding My Stack",
+    "description": "Created RPG-Game — a terminal RPG that taught me more about OOP, debugging, and code review than any tutorial could. Built QRGen and NoteApp to solve real problems I had. Switched to Linux as my daily driver."
+  },
+  {
+    "date": "2024",
+    "title": "Learning Beyond Python",
+    "description": "After getting comfortable with Python, I started exploring other languages — Go for its simplicity and concurrency, Rust for its safety guarantees, C# for its type system, and JavaScript for the web."
+  },
+  {
+    "date": "Beginning",
+    "title": "Curiosity During the Pandemic",
+    "description": "Like a lot of people, I had extra time during COVID-19. Instead of just scrolling, I got curious — how do apps actually work? That curiosity led me to my first programming language: C#."
+  }
+]

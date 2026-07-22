@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="icon-python" viewBox="0 0 128 128">
+    <path d="M64.04 8.22c-27.13 0-25.97 12.06-25.97 12.06l.01 12.49h26.44v3.75H47.87s-17.33-1.96-17.33 25.83 15.08 26.96 15.08 26.96h9.27V78.04s-.56-15.08 14.8-15.08h26.3s14.24.23 14.24-13.68V22.33S92.73 8.22 64.04 8.22zm-14.6 7.56c2.57 0 4.66 2.08 4.66 4.66s-2.08 4.66-4.66 4.66a4.66 4.66 0 010-9.32z" fill="#3776AB"/>
+    <path d="M63.96 119.78c27.13 0 25.97-12.06 25.97-12.06l-.01-12.49H63.48v-3.75h26.65s17.33 1.96 17.33-25.83-15.08-26.96-15.08-26.96h-9.27v11.27s.56 15.08-14.8 15.08h-26.3s-14.24-.23-14.24 13.68v26.95s-7.51 14.11 21.19 14.11zm14.6-7.56a4.66 4.66 0 01-4.66-4.66c0-2.57 2.08-4.66 4.66-4.66s4.66 2.08 4.66 4.66-2.08 4.66-4.66 4.66z" fill="#FFD43B"/>
+  </symbol>
+  <symbol id="icon-go" viewBox="0 0 128 128">
+    <path d="M10.5 64.9c0 7.8 6.3 14.1 14.1 14.1s14.1-6.3 14.1-14.1-6.3-14.1-14.1-14.1-14.1 6.3-14.1 14.1z" fill="#00ACD7"/>
+    <path d="M99.5 64.9c0 7.8 6.3 14.1 14.1 14.1s14.1-6.3 14.1-14.1-6.3-14.1-14.1-14.1-14.1 6.3-14.1 14.1z" fill="#00ACD7"/>
+    <path d="M64 10.5c-7.8 0-14.1 6.3-14.1 14.1s6.3 14.1 14.1 14.1 14.1-6.3 14.1-14.1S71.8 10.5 64 10.5z" fill="#00ACD7"/>
+    <path d="M64 99.5c-7.8 0-14.1 6.3-14.1 14.1s6.3 14.1 14.1 14.1 14.1-6.3 14.1-14.1-6.3-14.1-14.1-14.1z" fill="#00ACD7"/>
+    <path d="M64 42.8c-11.7 0-21.2 9.5-21.2 21.2s9.5 21.2 21.2 21.2 21.2-9.5 21.2-21.2S75.7 42.8 64 42.8z" fill="#fff"/>
+  </symbol>
+  <symbol id="icon-rust" viewBox="0 0 128 128">
+    <circle cx="64" cy="64" r="56" fill="#000" stroke="#CE422B" stroke-width="4"/>
+    <text x="64" y="78" font-family="monospace" font-size="48" font-weight="700" fill="#CE422B" text-anchor="middle">R</text>
+  </symbol>
+  <symbol id="icon-javascript" viewBox="0 0 128 128">
+    <rect width="128" height="128" rx="8" fill="#F7DF1E"/>
+    <text x="64" y="88" font-family="monospace" font-size="64" font-weight="700" fill="#000" text-anchor="middle">JS</text>
+  </symbol>
+  <symbol id="icon-csharp" viewBox="0 0 128 128">
+    <rect width="128" height="128" rx="8" fill="#68217A"/>
+    <text x="64" y="82" font-family="monospace" font-size="44" font-weight="700" fill="#fff" text-anchor="middle">C#</text>
+  </symbol>
+  <symbol id="icon-linux" viewBox="0 0 128 128">
+    <circle cx="64" cy="64" r="56" fill="#FCC624"/>
+    <text x="64" y="78" font-family="monospace" font-size="36" font-weight="700" fill="#000" text-anchor="middle">Tux</text>
+  </symbol>
+  <symbol id="icon-git" viewBox="0 0 128 128">
+    <path d="M124.74 58.37L69.62 3.26a7.5 7.5 0 00-10.61 0l-10.6 10.6 13.32 13.32a9 9 0 0111.48 11.62l12.8 12.8a9 9 0 11-5.35 5.05l-12-12v31.44a9 9 0 11-7.43-.43V44.06a9 9 0 01-4.85-11.86L43.26 19.05 3.26 59.05a7.5 7.5 0 000 10.61l55.12 55.12a7.5 7.5 0 0010.61 0l54.75-54.75a7.5 7.5 0 000-10.61z" fill="#F05032"/>
+  </symbol>
+  <symbol id="icon-github" viewBox="0 0 128 128">
+    <path d="M64 5.1c-35.3 0-64 28.7-64 64 0 28.2 18.3 52.2 43.7 60.7 3.2.6 4.4-1.4 4.4-3.1 0-1.5-.1-6.7-.1-12.2-15.6 2.9-19.7-3.8-21-7.2-.7-1.8-3.7-7.2-6.3-8.6-2.2-1.2-5.3-4-.1-4.1 4.9-.1 8.4 4.6 9.5 6.6 5.6 9.4 14.5 6.7 18 5.1.6-4 2.2-6.7 4-8.2-13.8-1.6-28.2-6.9-28.2-30.6 0-6.7 2.4-12.2 6.3-16.4-.6-1.6-2.8-7.9.6-16.2 0 0 5.1-1.6 16.7 6.3 4.9-1.4 10.1-2.1 15.3-2.1s10.4.7 15.3 2.1c11.5-7.9 16.7-6.3 16.7-6.3 3.4 8.3 1.3 14.6.6 16.2 3.9 4.2 6.3 9.7 6.3 16.4 0 23.7-14.5 29-28.3 30.6 2.2 1.9 4.1 5.6 4.1 11.3 0 8.2-.1 14.8-.1 16.9 0 1.6 1.2 3.7 4.4 3.1 25.4-8.5 43.6-32.5 43.6-60.7C128 33.8 99.3 5.1 64 5.1z" fill="#fff"/>
+  </symbol>
+  <symbol id="icon-vscode" viewBox="0 0 128 128">
+    <path d="M95 15L64 43.5 33 15 15 27v74l18 12 31-28.5L95 113l18-12V27L95 15z" fill="#007ACC"/>
+    <path d="M64 43.5v41L33 113l-18-12V27l18 12 31 28.5z" fill="#1F9CF0"/>
+  </symbol>
+  <symbol id="icon-sqlite" viewBox="0 0 128 128">
+    <rect width="128" height="128" rx="8" fill="#003B57"/>
+    <text x="64" y="78" font-family="monospace" font-size="32" font-weight="700" fill="#fff" text-anchor="middle">SQL</text>
+  </symbol>
+  <symbol id="icon-terminal" viewBox="0 0 128 128">
+    <rect width="128" height="128" rx="8" fill="#1a1a1f"/>
+    <path d="M28 40l20 18-20 18" stroke="#4a9eff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M60 76h30" stroke="#4a9eff" stroke-width="5" stroke-linecap="round" fill="none"/>
+  </symbol>
+  <symbol id="icon-ai" viewBox="0 0 128 128">
+    <circle cx="64" cy="64" r="56" fill="none" stroke="#4a9eff" stroke-width="4"/>
+    <path d="M40 64c0-13.3 10.7-24 24-24s24 10.7 24 24-10.7 24-24 24" fill="none" stroke="#4a9eff" stroke-width="4"/>
+    <circle cx="64" cy="64" r="8" fill="#4a9eff"/>
+  </symbol>
+  <symbol id="icon-crypto" viewBox="0 0 128 128">
+    <rect x="32" y="56" width="64" height="48" rx="6" fill="none" stroke="#4a9eff" stroke-width="4"/>
+    <path d="M44 56V40a20 20 0 0140 0v16" fill="none" stroke="#4a9eff" stroke-width="4"/>
+    <circle cx="64" cy="76" r="6" fill="#4a9eff"/>
+  </symbol>
+  <symbol id="icon-opensource" viewBox="0 0 128 128">
+    <circle cx="64" cy="64" r="56" fill="none" stroke="#4a9eff" stroke-width="4"/>
+    <path d="M64 32v64M32 64h64" stroke="#4a9eff" stroke-width="4" stroke-linecap="round"/>
+  </symbol>
+</svg>

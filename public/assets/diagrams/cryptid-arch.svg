@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+    <defs>
+        <style>
+            .diagram-bg { fill: #161B22; }
+            .diagram-title { fill: #e4e4e8; font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600; }
+            .diagram-subtitle { fill: #9a9aa8; font-family: 'JetBrains Mono', monospace; font-size: 10px; }
+            .layer-bg { fill: #1C2128; stroke: rgba(255,255,255,0.06); stroke-width: 1; rx: 8; }
+            .layer-label { fill: #4a9eff; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; }
+            .component-bg { fill: #0D1117; stroke: rgba(255,255,255,0.08); stroke-width: 1; rx: 6; }
+            .component-text { fill: #e4e4e8; font-family: 'JetBrains Mono', monospace; font-size: 10px; }
+            .arrow { stroke: #4a9eff; stroke-width: 1.5; fill: none; marker-end: url(#arrowhead); opacity: 0.6; }
+            .data-flow { stroke: #4ade80; stroke-width: 1; stroke-dasharray: 4 3; fill: none; opacity: 0.4; }
+        </defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#4a9eff" opacity="0.6"/>
+    </marker>
+
+    <!-- Background -->
+    <rect class="diagram-bg" width="800" height="400" rx="12"/>
+
+    <!-- Title -->
+    <text class="diagram-title" x="24" y="32">Cryptid — Architecture Overview</text>
+    <text class="diagram-subtitle" x="24" y="48">CLI Cryptographic Toolkit — AES-256-GCM + Argon2id</text>
+
+    <!-- Layer 1: CLI -->
+    <rect class="layer-bg" x="24" y="64" width="752" height="56"/>
+    <text class="layer-label" x="40" y="84">CLI Layer (Typer + Rich)</text>
+    <rect class="component-bg" x="40" y="92" width="100" height="22"/>
+    <text class="component-text" x="52" y="107">encrypt</text>
+    <rect class="component-bg" x="152" y="92" width="100" height="22"/>
+    <text class="component-text" x="168" y="107">decrypt</text>
+    <rect class="component-bg" x="264" y="92" width="80" height="22"/>
+    <text class="component-text" x="276" y="107">keygen</text>
+    <rect class="component-bg" x="356" y="92" width="80" height="22"/>
+    <text class="component-text" x="370" y="107">info</text>
+
+    <!-- Arrow down -->
+    <line class="arrow" x1="290" y1="120" x2="290" y2="148"/>
+
+    <!-- Layer 2: Services -->
+    <rect class="layer-bg" x="24" y="148" width="752" height="72"/>
+    <text class="layer-label" x="40" y="168">Service Layer</text>
+    <rect class="component-bg" x="40" y="178" width="140" height="28"/>
+    <text class="component-text" x="56" y="197">EncryptService</text>
+    <rect class="component-bg" x="196" y="178" width="140" height="28"/>
+    <text class="component-text" x="214" y="197">DecryptService</text>
+    <rect class="component-bg" x="352" y="178" width="140" height="28"/>
+    <text class="component-text" x="372" y="197">FolderService</text>
+    <rect class="component-bg" x="508" y="178" width="140" height="28"/>
+    <text class="component-text" x="530" y="197">KeyService</text>
+
+    <!-- Arrow down -->
+    <line class="arrow" x1="290" y1="220" x2="290" y2="248"/>
+
+    <!-- Layer 3: Crypto -->
+    <rect class="layer-bg" x="24" y="248" width="460" height="72"/>
+    <text class="layer-label" x="40" y="268">Crypto Engine</text>
+    <rect class="component-bg" x="40" y="278" width="130" height="28"/>
+    <text class="component-text" x="56" y="297">CipherEngine</text>
+    <rect class="component-bg" x="184" y="278" width="130" height="28"/>
+    <text class="component-text" x="202" y="297">KDFEngine</text>
+    <rect class="component-bg" x="328" y="278" width="130" height="28"/>
+    <text class="component-text" x="350" y="297">KeyManager</text>
+
+    <!-- Layer 4: Storage -->
+    <rect class="layer-bg" x="24" y="340" width="460" height="44"/>
+    <text class="layer-label" x="40" y="358">Storage</text>
+    <rect class="component-bg" x="40" y="364" width="100" height="18"/>
+    <text class="component-text" x="56" y="377">Reader</text>
+    <rect class="component-bg" x="152" y="364" width="100" height="18"/>
+    <text class="component-text" x="166" y="377">Writer</text>
+    <rect class="component-bg" x="264" y="364" width="140" height="18"/>
+    <text class="component-text" x="278" y="377">SecureDelete</text>
+
+    <!-- Right side: Models & Exceptions -->
+    <rect class="layer-bg" x="508" y="248" width="268" height="136"/>
+    <text class="layer-label" x="524" y="268">Models &amp; Exceptions</text>
+    <rect class="component-bg" x="524" y="278" width="120" height="22"/>
+    <text class="component-text" x="536" y="293">EncryptedFile</text>
+    <rect class="component-bg" x="656" y="278" width="100" height="22"/>
+    <text class="component-text" x="672" y="293">KeyFile</text>
+    <rect class="component-bg" x="524" y="310" width="120" height="22"/>
+    <text class="component-text" x="536" y="325">Validation</text>
+    <rect class="component-bg" x="656" y="310" width="100" height="22"/>
+    <text class="component-text" x="668" y="325">Progress</text>
+    <rect class="component-bg" x="524" y="342" width="232" height="22"/>
+    <text class="component-text" x="576" y="357">CryptidError Hierarchy</text>
+
+    <!-- Data flow: Crypto → Storage -->
+    <line class="data-flow" x1="290" y1="320" x2="290" y2="340"/>
+</svg>

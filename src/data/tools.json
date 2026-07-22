@@ -1,0 +1,9 @@
+[
+  { "name": "Linux", "description": "Daily driver OS — terminal-first workflow, system administration, shell scripting" },
+  { "name": "Git & GitHub", "description": "Version control, branching strategies, collaborative development" },
+  { "name": "VS Code", "description": "Primary editor for Python, Go, and web development workflows" },
+  { "name": "SQLite", "description": "Embedded database for CLI tools and desktop applications" },
+  { "name": "Docker", "description": "Containerization for development and deployment" },
+  { "name": "AI Agents", "description": "OpenClaw, LLM orchestration, RAG systems, semantic retrieval" },
+  { "name": "Terminal & CLI", "description": "Command-line tools, shell scripting, automation workflows" }
+]

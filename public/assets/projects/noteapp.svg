@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none" role="img" aria-label="NoteApp illustration">
+  <!-- Note card 1 -->
+  <rect x="120" y="40" width="160" height="120" rx="8" fill="#1a1a1f" stroke="rgba(74,158,255,0.15)" stroke-width="1.5"/>
+  <rect x="135" y="58" width="90" height="6" rx="3" fill="#4a9eff" opacity="0.5"/>
+  <rect x="135" y="74" width="130" height="4" rx="2" fill="rgba(255,255,255,0.1)"/>
+  <rect x="135" y="86" width="110" height="4" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <rect x="135" y="98" width="120" height="4" rx="2" fill="rgba(255,255,255,0.06)"/>
+  <rect x="135" y="110" width="80" height="4" rx="2" fill="rgba(255,255,255,0.1)"/>
+  <rect x="135" y="128" width="50" height="12" rx="4" fill="rgba(74,158,255,0.15)"/>
+
+  <!-- Note card 2 (behind, offset) -->
+  <rect x="140" y="50" width="160" height="120" rx="8" fill="#141417" stroke="rgba(74,158,255,0.08)" stroke-width="1"/>
+  <rect x="155" y="68" width="80" height="5" rx="2" fill="rgba(74,158,255,0.2)"/>
+  <rect x="155" y="82" width="120" height="3" rx="1" fill="rgba(255,255,255,0.05)"/>
+  <rect x="155" y="92" width="100" height="3" rx="1" fill="rgba(255,255,255,0.04)"/>
+
+  <!-- Search icon -->
+  <circle cx="80" cy="100" r="14" fill="none" stroke="#4a9eff" stroke-width="2" opacity="0.3"/>
+  <line x1="90" y1="110" x2="100" y2="120" stroke="#4a9eff" stroke-width="2" opacity="0.3"/>
+
+  <!-- Category tag -->
+  <rect x="300" y="80" width="50" height="18" rx="9" fill="rgba(74,158,255,0.1)"/>
+  <text x="325" y="93" font-family="monospace" font-size="9" fill="#4a9eff" text-anchor="middle" opacity="0.6">dev</text>
+</svg>

@@ -1,0 +1,128 @@
+{
+  "branches": [
+    {
+      "id": "languages",
+      "name": "Languages",
+      "color": "#4a9eff",
+      "skills": [
+        {
+          "id": "python",
+          "name": "Python",
+          "level": 90,
+          "description": "My primary language for everything from CLI tools to AI systems. Started here and still my go-to for rapid prototyping and production code alike.",
+          "tags": ["Python 3.13+", "Typer", "Rich", "cryptography", "pytest"],
+          "projects": ["cryptid", "rpg-game", "qrgen"]
+        },
+        {
+          "id": "go",
+          "name": "Go",
+          "level": 70,
+          "description": "Learning for systems programming and concurrent applications. Drawn to its simplicity, fast compilation, and excellent standard library.",
+          "tags": ["Go 1.21+", "Goroutines", "Standard Library"],
+          "projects": []
+        },
+        {
+          "id": "javascript",
+          "name": "JavaScript",
+          "level": 75,
+          "description": "Used for web development and frontend work. Comfortable with modern ES6+ syntax and DOM manipulation.",
+          "tags": ["ES6+", "DOM", "Vanilla JS"],
+          "projects": []
+        }
+      ]
+    },
+    {
+      "id": "systems",
+      "name": "Systems",
+      "color": "#4ade80",
+      "skills": [
+        {
+          "id": "rust",
+          "name": "Rust",
+          "level": 60,
+          "description": "Currently learning for systems programming. Fascinated by its memory safety guarantees without garbage collection.",
+          "tags": ["Ownership", "Borrow Checker", "Cargo"],
+          "projects": []
+        },
+        {
+          "id": "csharp",
+          "name": "C#",
+          "level": 65,
+          "description": "Where I started programming. Used for game development with Unity and learning OOP fundamentals during the pandemic.",
+          "tags": [".NET", "OOP", "Unity"],
+          "projects": []
+        },
+        {
+          "id": "cpp",
+          "name": "C/C++",
+          "level": 60,
+          "description": "Academic and competitive programming. Understanding memory management at a low level.",
+          "tags": ["C++17", "Memory Management", "STL"],
+          "projects": []
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "color": "#fbbf24",
+      "skills": [
+        {
+          "id": "architecture",
+          "name": "Architecture",
+          "level": 85,
+          "description": "Strong believer in layered, testable code. Every project I build follows separation of concerns and dependency inversion.",
+          "tags": ["SOLID", "Layered Design", "DI", "Separation of Concerns"],
+          "projects": ["cryptid", "noteapp"]
+        },
+        {
+          "id": "algorithms",
+          "name": "Algorithms",
+          "level": 80,
+          "description": "Academic foundation combined with practical problem-solving. From sorting to graph traversal, understanding the why behind the how.",
+          "tags": ["Data Structures", "Complexity Analysis", "Problem Solving"],
+          "projects": []
+        },
+        {
+          "id": "oop",
+          "name": "OOP",
+          "level": 75,
+          "description": "Primary programming paradigm. Classes, inheritance, polymorphism, encapsulation — the building blocks of my code.",
+          "tags": ["Classes", "Inheritance", "Polymorphism", "Encapsulation"],
+          "projects": ["rpg-game", "noteapp"]
+        }
+      ]
+    },
+    {
+      "id": "domains",
+      "name": "Domains",
+      "color": "#a855f7",
+      "skills": [
+        {
+          "id": "cryptography",
+          "name": "Cryptography",
+          "level": 80,
+          "description": "Applied cryptography — AES-256-GCM, Argon2id, key management. Security-first design is non-negotiable.",
+          "tags": ["AES-256-GCM", "Argon2id", "Key Management", "AEAD"],
+          "projects": ["cryptid"]
+        },
+        {
+          "id": "ai",
+          "name": "AI",
+          "level": 70,
+          "description": "Building AI agent systems with memory, reflection, and tool use. Exploring the intersection of LLMs and software engineering.",
+          "tags": ["LLMs", "RAG", "Agents", "Memory Systems"],
+          "projects": []
+        },
+        {
+          "id": "linux",
+          "name": "Linux",
+          "level": 85,
+          "description": "Daily driver since 2023. Debian-based. Shell scripting, system administration, and understanding how things work under the hood.",
+          "tags": ["Debian", "Bash", "Systemd", "Networking"],
+          "projects": []
+        }
+      ]
+    }
+  ]
+}

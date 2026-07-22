@@ -1,0 +1,6 @@
+[
+  { "title": "Security First", "description": "Every design decision considers the threat model. Never implement custom crypto. Always use well-vetted libraries." },
+  { "title": "Clean Architecture", "description": "Code should be modular, testable, and maintainable. SOLID principles guide every architectural decision." },
+  { "title": "Incremental Growth", "description": "Never generate entire projects at once. Build incrementally, test continuously, refactor fearlessly." },
+  { "title": "Learn by Building", "description": "The best way to learn is to build real projects. Every project teaches something new about software engineering." }
+]

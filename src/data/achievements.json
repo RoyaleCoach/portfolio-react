@@ -1,0 +1,8 @@
+[
+  { "icon": "🎓", "title": "ITS Student", "description": "Informatics Engineering at Institut Teknologi Sepuluh Nopember" },
+  { "icon": "🔐", "title": "Security First", "description": "Built a production-grade cryptographic toolkit from scratch" },
+  { "icon": "🐍", "title": "Polyglot", "description": "Proficient in 6+ programming languages" },
+  { "icon": "🐧", "title": "Linux User", "description": "Debian daily driver — terminal-first workflow" },
+  { "icon": "📐", "title": "Clean Architect", "description": "Practices SOLID, Clean Architecture, and DRY principles" },
+  { "icon": "🚀", "title": "Self-Taught", "description": "Started coding during the pandemic — now building real projects" }
+]

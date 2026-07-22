@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" fill="none" role="img" aria-label="Cryptid encryption illustration">
+  <!-- Lock body -->
+  <rect x="160" y="80" width="80" height="70" rx="8" fill="none" stroke="#4a9eff" stroke-width="3"/>
+  <!-- Lock shackle -->
+  <path d="M176 80V56a24 24 0 0148 0v24" fill="none" stroke="#4a9eff" stroke-width="3"/>
+  <!-- Keyhole -->
+  <circle cx="200" cy="110" r="8" fill="#4a9eff"/>
+  <rect x="196" y="116" width="8" height="16" rx="2" fill="#4a9eff"/>
+
+  <!-- Encryption flow arrows -->
+  <path d="M60 115h80" stroke="#4a9eff" stroke-width="2" stroke-dasharray="4 4" opacity="0.4"/>
+  <path d="M260 115h80" stroke="#4a9eff" stroke-width="2" stroke-dasharray="4 4" opacity="0.4"/>
+
+  <!-- Plaintext -->
+  <text x="40" y="120" font-family="monospace" font-size="12" fill="rgba(255,255,255,0.4)">plain</text>
+  <!-- Ciphertext -->
+  <text x="310" y="120" font-family="monospace" font-size="12" fill="#4a9eff" opacity="0.6">0x7f3a...</text>
+
+  <!-- Decorative binary -->
+  <text x="130" y="170" font-family="monospace" font-size="10" fill="rgba(74,158,255,0.15)">AES-256-GCM</text>
+  <text x="220" y="170" font-family="monospace" font-size="10" fill="rgba(74,158,255,0.1)">Argon2id</text>
+</svg>
