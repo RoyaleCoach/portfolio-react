@@ -263,7 +263,7 @@ export default function FloatingTerminal() {
                     <span className="terminal-welcome-text">{line.text}</span>
                   </div>
                 ) : line.type === 'echo' ? (
-                  <span className="terminal-echo-text">{line.text}</span>
+                  <><span className="terminal-prompt">royale@portfolio:~$</span><span className="terminal-echo-text">{line.text}</span></>
                 ) : (
                   <pre className="terminal-result">{line.text}</pre>
                 )}
