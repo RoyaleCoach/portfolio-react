@@ -3,8 +3,8 @@ import { useState } from 'react'
 export default function ResumeCard() {
   const [showPreview, setShowPreview] = useState(false)
 
-  const pdfUrl = '/resume/RoyaleCoach_Resume.pdf'
-  const docxUrl = '/resume/RoyaleCoach_Resume.docx'
+  const pdfUrl = `${import.meta.env.BASE_URL}resume/RoyaleCoach_Resume.pdf`
+  const docxUrl = `${import.meta.env.BASE_URL}resume/RoyaleCoach_Resume.docx`
 
   return (
     <div className="resume-card">
