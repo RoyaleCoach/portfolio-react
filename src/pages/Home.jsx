@@ -16,7 +16,7 @@ function Hero() {
   return (
     <header className="hero" id="home">
       <div className="hero-background" aria-hidden="true">
-        <img src="/assets/illustrations/hero.svg" alt="" className="hero-illustration" width="800" height="500" />
+        <img src={`${import.meta.env.BASE_URL}assets/illustrations/hero.svg`} alt="" className="hero-illustration" width="800" height="500" />
       </div>
       <div className="hero-particles" aria-hidden="true"><Particles /></div>
       <div className="hero-content">
@@ -82,7 +82,7 @@ export default function Home() {
             {featuredProjects.map(p => (
               <article key={p.id} className="project-card" data-category={p.categories.join(' ')}>
                 <div className="project-card-image">
-                  <img src={`/assets/projects/${p.image}`} alt={`${p.name} illustration`} width="400" height="200" loading="lazy" />
+                  <img src={`${import.meta.env.BASE_URL}assets/projects/${p.image}`} alt={`${p.name} illustration`} width="400" height="200" loading="lazy" />
                 </div>
                 <div className="project-card-header">
                   <span className={`project-status status-${p.status.toLowerCase()}`}>{p.status}</span>

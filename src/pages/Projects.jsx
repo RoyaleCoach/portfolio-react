@@ -63,7 +63,7 @@ export default function Projects() {
             {filtered.map(p => (
               <article key={p.id} className="project-card fade-in">
                 <div className="project-card-image">
-                  <img src={`/assets/projects/${p.image}`} alt={`${p.name} illustration`} width="400" height="200" loading="lazy" />
+                  <img src={`${import.meta.env.BASE_URL}assets/projects/${p.image}`} alt={`${p.name} illustration`} width="400" height="200" loading="lazy" />
                 </div>
                 <div className="project-card-header">
                   <span className={`project-status status-${p.status.toLowerCase()}`}>{p.status}</span>

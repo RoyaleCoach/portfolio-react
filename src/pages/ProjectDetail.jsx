@@ -27,7 +27,7 @@ export default function ProjectDetail() {
             <div className="project-main">
               <div className="project-section fade-in">
                 <div className="project-hero-image">
-                  <img src={`/assets/projects/${project.image}`} alt={`${project.name} illustration`} width="400" height="200" loading="lazy" />
+                  <img src={`${import.meta.env.BASE_URL}assets/projects/${project.image}`} alt={`${project.name} illustration`} width="400" height="200" loading="lazy" />
                 </div>
                 <h2 className="section-title">Overview</h2>
                 <p>{project.fullDesc}</p>
@@ -37,7 +37,7 @@ export default function ProjectDetail() {
                 <h2 className="section-title">Architecture</h2>
                 {project.id === 'cryptid' && (
                   <div className="architecture-diagram">
-                    <img src="/assets/diagrams/cryptid-arch.svg" alt="Cryptid architecture diagram showing CLI → Services → Crypto → Storage layers" loading="lazy" />
+                    <img src={`${import.meta.env.BASE_URL}assets/diagrams/cryptid-arch.svg`} alt="Cryptid architecture diagram showing CLI → Services → Crypto → Storage layers" loading="lazy" />
                   </div>
                 )}
                 <pre className="code-block"><code>{project.architecture}</code></pre>

@@ -108,7 +108,7 @@ export default function Contact() {
 
             <div className="contact-form-wrapper fade-in delay-2">
               <div className="resume-section">
-                <a href="/resume/RoyaleCoach_Resume.pdf" download="RoyaleCoach_Resume.pdf" className="btn btn-outline btn-full" aria-label="Download resume">
+                <a href={`${import.meta.env.BASE_URL}resume/RoyaleCoach_Resume.pdf`} download="RoyaleCoach_Resume.pdf" className="btn btn-outline btn-full" aria-label="Download resume">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                     <path d="M8 2v8M4 6l4 4 4-4M2 12h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
