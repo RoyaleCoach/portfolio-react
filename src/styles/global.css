@@ -2737,7 +2737,7 @@ main {
 }
 
 .terminal-echo-text {
-    color: var(--color-text);
+    color: var(--color-success);
     white-space: pre-wrap;
     font-family: var(--font-mono);
     font-size: var(--text-xs);
@@ -2746,6 +2746,9 @@ main {
 .terminal-prompt {
     color: var(--color-success);
     user-select: none;
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    flex-shrink: 0;
 }
 
 .terminal-result {
