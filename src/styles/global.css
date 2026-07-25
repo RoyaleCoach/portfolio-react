@@ -2736,6 +2736,13 @@ main {
     margin-bottom: 2px;
 }
 
+.terminal-echo-text {
+    color: var(--color-text);
+    white-space: pre-wrap;
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+}
+
 .terminal-prompt {
     color: var(--color-success);
     user-select: none;
