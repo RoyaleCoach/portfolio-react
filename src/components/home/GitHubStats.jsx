@@ -31,9 +31,12 @@ export default function GitHubStats() {
     if (cached) { setStats(cached); return }
     fetch(`https://api.github.com/users/${USERNAME}`)
       .then(r => r.json())
-      .then(user => fetch(user.repos_url + '?per_page=100&sort=updated'))
-      .then(r => r.json())
-      .then(repos => {
+      .then(user =>
+        fetch(user.repos_url + '?per_page=100&sort=updated')
+          .then(r => r.json())
+          .then(repos => ({ user, repos }))
+      )
+      .then(({ user, repos }) => {
         const totalStars = repos.reduce((s, r) => s + (r.stargazers_count || 0), 0)
         const langs = {}
         repos.forEach(r => { if (r.language) langs[r.language] = (langs[r.language] || 0) + 1 })
