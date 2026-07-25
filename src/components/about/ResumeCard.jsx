@@ -3,8 +3,8 @@ import { useState } from 'react'
 export default function ResumeCard() {
   const [showPreview, setShowPreview] = useState(false)
 
-  const pdfUrl = `${import.meta.env.BASE_URL}resume/RoyaleCoach_Resume.pdf`
-  const docxUrl = `${import.meta.env.BASE_URL}resume/RoyaleCoach_Resume.docx`
+  const pdfUrl = `${import.meta.env.BASE_URL}resume/RoyaleCoach_Software_Engineering_Portfolio.pdf`
+  const docxUrl = `${import.meta.env.BASE_URL}resume/RoyaleCoach_Software_Engineering_Portfolio.docx`
 
   return (
     <div className="resume-card">
@@ -31,13 +31,13 @@ export default function ResumeCard() {
               />
             </div>
             <div className="resume-preview-actions">
-              <a href={pdfUrl} download="RoyaleCoach_Resume.pdf" className="btn btn-primary btn-sm">
+              <a href={pdfUrl} download="RoyaleCoach_Software_Engineering_Portfolio.pdf" className="btn btn-primary btn-sm">
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                   <path d="M8 2v8M4 6l4 4 4-4M2 12h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
                 Download PDF
               </a>
-              <a href={docxUrl} download="RoyaleCoach_Resume.docx" className="btn btn-outline btn-sm">
+              <a href={docxUrl} download="RoyaleCoach_Software_Engineering_Portfolio.docx" className="btn btn-outline btn-sm">
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                   <path d="M8 2v8M4 6l4 4 4-4M2 12h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
@@ -69,13 +69,13 @@ export default function ResumeCard() {
             </svg>
             Preview
           </button>
-          <a href={pdfUrl} download="RoyaleCoach_Resume.pdf" className="btn btn-primary btn-sm">
+          <a href={pdfUrl} download="RoyaleCoach_Software_Engineering_Portfolio.pdf" className="btn btn-primary btn-sm">
             <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <path d="M8 2v8M4 6l4 4 4-4M2 12h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             Download PDF
           </a>
-          <a href={docxUrl} download="RoyaleCoach_Resume.docx" className="btn btn-outline btn-sm">
+          <a href={docxUrl} download="RoyaleCoach_Software_Engineering_Portfolio.docx" className="btn btn-outline btn-sm">
             <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <path d="M8 2v8M4 6l4 4 4-4M2 12h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>

@@ -39,7 +39,7 @@ Visit: https://github.com/RoyaleCoach`,
   github: () => `GitHub: https://github.com/RoyaleCoach
 Feel free to explore my repositories and contributions.`,
 
-  resume: () => `Resume available at: ${import.meta.env.BASE_URL}resume/RoyaleCoach_Resume.pdf\nDownload: Use the About page or Contact page button.\nFormats: PDF, DOCX`,
+  resume: () => `Resume available at: ${import.meta.env.BASE_URL}resume/RoyaleCoach_Software_Engineering_Portfolio.pdf\nDownload: Use the About page or Contact page button.\nFormats: PDF, DOCX`,
 
   contact: () => `Email:    royalecoach57@gmail.com
 GitHub:   https://github.com/RoyaleCoach
