@@ -187,8 +187,8 @@ export default function FloatingTerminal() {
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
-      executeCommand(input)
-      setInput('')
+      // Let handleSubmit handle it — don't double-fire
+      return
     } else if (e.key === 'ArrowUp') {
       e.preventDefault()
       if (history.length > 0) {
